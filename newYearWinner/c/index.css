@@ -1,0 +1,161 @@
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: '';
+}
+.clearfix:after {
+  clear: both;
+}
+.bg {
+  width: 7.53rem;
+  height: 4.25rem;
+  background: url(../i/bg.jpg) 0 0 no-repeat;
+  background-size: 7.53rem 4.25rem;
+  position: relative;
+  overflow: hidden;
+}
+.time{
+  width: 3.7rem;
+  height: 0.36rem;
+  font-size: 0.26rem;
+  text-align: center;
+  color: #ad1e24;
+  border-top:0.02rem solid #ad1e24;
+  border-bottom:0.02rem solid #ad1e24;
+  margin: 1.52rem 0 0 0.3rem;
+}
+/*刮卡特效*/
+.gamecon{
+  width: 4.3rem;
+  height: 1.11rem;
+  overflow: hidden;
+  position: relative;
+  margin: 0.2rem 0 0 0.6rem;
+}
+.gamecon img{
+    width: 4.3rem;
+    height: 1.11rem;
+    position: absolute;
+    z-index: 4;
+}
+.lottery{
+  width: 5.5rem;
+}
+#lotteryCard{
+    height: 1.55rem;
+    width: 4.3rem;
+    position: absolute;
+    top: 0.08rem;
+    z-index: 5;
+}
+/*大赢家次数*/
+.win,.remain{
+  font-size: 0.16rem;
+  color: #ad1e24;
+  font-weight: bold;
+  text-align: center;
+}
+.win{
+    margin-top: 0.05rem;
+}
+.rulesDetail{
+  font-size: 0.18rem;
+  text-align: center;
+  color: #ad1e24;
+  font-weight: bold;
+  margin-top: 0.1rem;
+}
+/*提示信息*/
+.info{
+  font-size: 0.24rem;
+  color: #737373;
+  text-align: center;
+}
+.enough{
+  top: 0.35rem;
+  display: none;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 22;
+}
+/*没有机会*/
+.noChance{
+  font-size: 0.24rem;
+  color: #737373;
+  text-align: center;
+  position: relative;
+  z-index: 22;
+  display: none;
+  position: absolute;
+  top: 0.2rem;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+}
+.line1{
+  margin-top: 0.3rem;
+}
+.start{
+  font-size: 0.3rem;
+  color: #737373;
+  text-align: center;
+  z-index: 5;
+  position: absolute;
+  top: 0.3rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+.prizeText{
+  font-size: 0.24rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  color: #737373;
+  position: absolute;
+  top: 0.2rem;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+}
+.prize0,
+.prize1,.prize2,.prize3{
+  display: none;
+}
+.cardBg{
+  width: 4.3rem;
+  height: 1.11rem;
+  background: url(../i/scratchBox.png) 0 0 no-repeat;
+  background-size: cover;
+}
+.cardFace{
+  width: 4.3rem;
+  height: 1.11rem;
+  background: url(../i/cardFace.png) 0 0 no-repeat;
+  background-size: cover;
+}
+.scratchBox{
+  width: 4.3rem;
+  height: 1.11rem;
+  background: url(../i/scratchBox.png) 0 0 no-repeat;
+  background-size: cover;
+  display: none;
+}
+.cardBg{
+  position: relative;
+  z-index: 4;
+}
